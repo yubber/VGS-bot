@@ -32,6 +32,10 @@ due to people complaining about the bot getting annoying and spammy, i'll limit 
 
 if your comment contains the word reevie the bot will search your comment for vgs commands. if there aren't any in your comment it searches the parent comment (maybe you don't know what someone was meaning by the vgs and want to check) and replies to yours if it finds vgs.
 
+## about the code restructure
+
+i made the template.py file allow you to only have to design a function that returns a string which will be used for reply. this made the other files dramatically shorter due to removing duplicate code. however, me being the potato that i am, i forgot to reset the reply string after every comment, which led to a disaster in r/test. it's been cleaned up though.
+
 ### about the maeve quarter function
 i originally created an alt account (/u/maevequarterbot) for this, but due to frequent rate limits i've used the REEvie account instead. ~~in the spirit of sticking with /u/willoquarterbot's design i chose not to leave a footer on the maeve comments.~~ i'll leave important footers here, but i'll probably leave out the "i'm a bot, here's my about" kind of footer.
 
