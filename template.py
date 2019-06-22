@@ -1,6 +1,6 @@
 import importlib, praw, re
 
-defaultfooter = " ^^^^^^^^^^^".join("i'm restructuring the code to make it more compact. if you run into any errors please let /u/yubbber know".split(" ") )
+defaultfooter = " ^^^^^^^^^^^".join("\n\n\n i'm restructuring the code to make it more compact. if you run into any errors please let /u/yubbber know".split(" ") )
 
 def login(who): # create reddit instance
     import secret
@@ -73,7 +73,7 @@ def main(r,qui,sub,filterfun,footer=defaultfooter,jsonbackup={}, *misc):
 
     if dataIO.is_valid_json("settings.json"): # check file integrity then load it
         main.settings = dataIO.load_json("settings.json")
-        print("loaded json")
+        print(main.settings)
     else:
         main.settings = jsonbackup # use our backup dict if our file is fucked
         print("couldn't load json")
@@ -107,6 +107,3 @@ def main(r,qui,sub,filterfun,footer=defaultfooter,jsonbackup={}, *misc):
     main.settings["{}_last_run".format(qui)] = newest_comment.created_utc # store the creation time of it as Unix timestamp
     dataIO.save_json("settings.json", main.settings) # save to file
     print("oof: {} comments with nothing \n \n \n".format(nothings))
-
-footer = ""
-# "\n\n ^^^i'm ^^^working ^^^to ^^^improve ^^^this ^^^bot. ^^^please ^^^participate ^^^in [^^^this ^^^survey!](http://poal.me/3flzg9)"
