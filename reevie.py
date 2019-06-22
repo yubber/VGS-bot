@@ -38,6 +38,6 @@ def kek(comment,misc):
 
     return tempreply
 
-reefooter = " ^^^^^^^^^".join("\n\n\n i'm a bot! check [this post](https://www.reddit.com/user/yubbber/comments/a8q81v/about_ureevie_bot/) for info.".split(" "))
+reefooter = " ^^^^^^^^^".join(" i'm a bot! check [this repo](https://github.com/yubber/VGS-bot) for info.".split(" "))
 
 t.main(t.login('reevie'), 'reevie','test', kek, t.defaultfooter + reefooter)
