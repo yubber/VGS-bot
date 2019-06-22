@@ -7,7 +7,7 @@ huge thanks to /u/DevilXD for helping with the regex, datetime and dataIO module
 
 *something something JusticeForCelerity*
 
-**the about on /u/yubbber's profile page is now outdated and archived.**
+**the [about](https://www.reddit.com/user/yubbber/comments/a8q81v/about_ureevie_bot/) on /u/yubbber's profile page is now outdated and archived.**
 you can find more old files [here](https://repl.it/@yubber1337/REEVIE)
 
 i run the bot on my computer, not on a server i pay to host the bot, so it runs every ~12h.
