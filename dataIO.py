@@ -1,3 +1,4 @@
+# not made by u/yubbber. https://github.com/MacHu-GWU/dataIO-project 
 import json
 import os
 from random import randint
