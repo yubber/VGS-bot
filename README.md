@@ -8,6 +8,7 @@ huge thanks to /u/DevilXD for helping with the regex, datetime and dataIO module
 *something something JusticeForCelerity*
 
 **the about on /u/yubbber's profile page is now outdated and archived.**
+you can find more old files [here](https://repl.it/@yubber1337/REEVIE)
 
 i run the bot on my computer, not on a server i pay to host the bot, so it runs every ~12h.
 you're more than welcome to copy/adapt the code to host it yourself, just lmk and link here on your project.
